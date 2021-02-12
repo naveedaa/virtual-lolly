@@ -14,18 +14,42 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@apollo/client": "^3.3.7",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/styles": "^4.11.3",
+    "apollo-server-lambda": "^2.21.0",
+    "axios": "^0.21.1",
+    "babel-loader": "^8.2.2",
+    "bootstrap": "^4.6.0",
+    "cross-fetch": "^3.0.6",
+    "dotenv": "^8.2.0",
+    "faunadb": "^4.0.3",
+    "formik": "^2.2.6",
     "gatsby": "^2.26.1",
+    "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-plugin-material-ui": "^2.1.10",
+    "gatsby-source-graphql": "^2.14.0",
+    "mdi-material-ui": "^6.22.0",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "react-loader-spinner": "^4.0.0",
+    "react-loading": "^2.0.3",
+    "shortid": "^2.2.16",
+    "yarn": "^1.22.10",
+    "yup": "^0.32.8"
   },
   "devDependencies": {
     "prettier": "2.2.1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "git+https://github.com/gatsbyjs/gatsby-starter-hello-world.git"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
-  }
+  },
+  "homepage": "https://github.com/gatsbyjs/gatsby-starter-hello-world#readme",
+  "main": "gatsby-browser.js",
+  "author": ""
 }

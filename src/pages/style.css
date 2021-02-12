@@ -1,0 +1,15 @@
+.homapage-container{
+    background-color: #21212b;
+    height: 120vh;
+    text-align: center;
+}
+.displaylolly-container{
+    /* border:5px solid red; */
+    text-align: center;
+}
+.lolly-image{
+    display: none;
+}
+.homebtn-div{
+    margin-top: 30px;
+}
