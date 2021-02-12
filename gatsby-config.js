@@ -17,7 +17,7 @@ module.exports = {
       options: {
         typeName: "GEN_LINK",
         fieldName: "get_v_Card",
-        url: "https://peaceful-sinoussi-140afb.netlify.app/.netlify/functions/v_lolly",
+        url: "https://12e-virtual-lolly.netlify.app/.netlify/functions/v_lolly",
       },
     },
   ],
