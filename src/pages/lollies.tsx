@@ -4,7 +4,7 @@ import "./style.css"
 
 const Lollies = ({ location }) => {
   React.useEffect(() => {
-    fetch("https://api.netlify.com/build_hooks/6026ba75370531148cb575d3", {
+    fetch("https://api.netlify.com/build_hooks/6027e8081e69bd4506839cbc", {
       method: "post",
       body: JSON.stringify({}),
     }).then(function (response) {
