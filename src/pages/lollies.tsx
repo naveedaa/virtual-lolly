@@ -4,7 +4,7 @@ import "./style.css"
 
 const Lollies = ({ location }) => {
   React.useEffect(() => {
-    fetch("https://api.netlify.com/build_hooks/60254a4a06092a276e098b0e", {
+    fetch("https://api.netlify.com/build_hooks/6026ba75370531148cb575d3", {
       method: "post",
       body: JSON.stringify({}),
     }).then(function (response) {
@@ -22,7 +22,7 @@ const Lollies = ({ location }) => {
           Share This Lolly With Your Friend:
         </div>
         <div style={{ color: 'white', marginBottom: "75px"}}>
-          {`https://virtual-lolly-12e-bootcamp.netlify.app/lollies/${link}`}
+          {`https://12e-virtual-lolly.netlify.app/lollies/${link}`}
           </div>
         <div className="main-container">
           <div className="lolly-container">
