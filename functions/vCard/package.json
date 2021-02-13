@@ -1,15 +1,14 @@
 {
-  "name": "v_lolly",
+  "name": "vcard",
   "version": "1.0.0",
   "description": "",
-  "main": "v_lolly.js",
+  "main": "vCard.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.21.1",
     "dotenv": "^8.2.0",
     "faunadb": "^4.0.3",
     "shortid": "^2.2.16"

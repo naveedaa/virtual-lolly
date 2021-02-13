@@ -1,4 +1,4 @@
-.homepage-btn {
+.lollyBtn {
     margin-top: 1em;
     box-shadow: 0 0 6px #fa73d9;
     border: 2px solid #fa73d9;
@@ -11,7 +11,7 @@
     transition: all .3s;
     font-family: 'Helvetica';
 }
-.homepage-btn:hover{
+.lollyBtn:hover{
     margin-top: 20px;
     background-color: #fa73d9;
     color:black;

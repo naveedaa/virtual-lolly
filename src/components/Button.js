@@ -6,4 +6,4 @@ const Button = ({ value, className }) => (
         <button className={className}>{value}</button>
     </div>
 )
-export default Button
+export default Button 

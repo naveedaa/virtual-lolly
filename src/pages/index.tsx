@@ -1,19 +1,18 @@
-  
-import React, { useRef, useState } from "react"
+import React from "react"
 import { Link } from "gatsby"
-import Heading from "../components/Heading"
+import Header from "../components/Header"
 import Button from "../components/Button" 
 import Lolly from "../components/lolly"
 import "./style.css"
 
-export default function Home() {
+export default function App() {
   return (
-    <div className="homapage-container">
+    <div className="container">
       <div> 
-        <Heading value2={"because we all know someone who deserves some sugar. "}
+        <Header value2={"because we all know someone who deserves some sugar. "}
           value={"virtual lollipop"}
-          className={"heading"}
-          className2={"tagline"}
+          className={"indexHeading"}
+          className2={"subTitle"}
         />
       </div>
       <div className="displaylolly-container">
@@ -34,9 +33,9 @@ export default function Home() {
         />
       </div>
       <div className="homebtn-div">
-        <Link to="/CreateLolly">
+        <Link to="/create_lolly">
           <Button
-            className={"homepage-btn"}
+            className="lollyBtn"
             value={"Make a new lolly to send a friend"}
           />
         </Link>
@@ -44,4 +43,3 @@ export default function Home() {
     </div>
   )
 }
-

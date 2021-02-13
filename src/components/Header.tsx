@@ -1,8 +1,8 @@
 import React from 'react'
-import "./Heading.css"
+import "./Header.css"
 
-const Heading = ({ value, className, value2, className2 })  => (
-    <div className="landingpage-container">
+const Header = ({ value, className, value2, className2 })  => (
+    <div className="header-container">
         <div className="heading-div">
             <h1 className={className}> {value} </h1>
             <p className={className2}> {value2} </p>
@@ -11,4 +11,4 @@ const Heading = ({ value, className, value2, className2 })  => (
         
     </div>
 )
-export default Heading
+export default Header;

@@ -1,41 +1,20 @@
+require("dotenv").config();
 
 module.exports = {
+  siteMetadata: {
+    title: `Gatsby Default Starter`,
+    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    author: `@gatsbyjs`,
+  },
   plugins: [
-    `gatsby-plugin-material-ui`,
     {
-      resolve: `gatsby-plugin-google-fonts`,
-      options: {
-        fonts: [
-          `Yellowtail`,
-          `Helvetica`,
-        ],
-        display: 'swap'
-      }
+      resolve: `gatsby-plugin-create-client-paths`,
+      options: { prefixes: [`/lollies/*`] },
     },
-    {
-      resolve: "gatsby-source-graphql",
-      options: {
-        typeName: "GEN_LINK",
-        fieldName: "get_v_Card",
-        url: "https://12e-virtual-lolly.netlify.app/.netlify/functions/v_lolly",
-      },
-    },
+    `gatsby-plugin-netlify`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+  
   ],
 }
-
-
-// require('dotenv').config()
- 
-// module.exports = {
-//   /* Your site config here */
-//   plugins: [
-//     {
-//       resolve: "gatsby-source-graphql",
-//       options: {
-//         typeName: "Lolly",
-//         fieldName: "lolly",
-//         url: process.env.CONFIG_URL,
-//       },
-//     },
-//   ],
-// }
