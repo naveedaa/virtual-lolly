@@ -3,7 +3,7 @@ var faunadb = require("faunadb"),
   q = faunadb.query
 
 var client = new faunadb.Client({
-  secret: "fnAD-9S3PmACAa8u1WwUBLdRIX1_MiWgicvDXIy7",
+  secret: "fnAEBAIUu1ACBc5HANl4ru42_RlxilA1mp9YvfSv",
 })
 
 exports.createPages = async ({ graphql, actions }) => {

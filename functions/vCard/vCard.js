@@ -5,7 +5,7 @@ var faunadb = require("faunadb"),
 require("dotenv").config();
 
 var client = new faunadb.Client({
-  secret: process.env.FAUNADB_ADMIN_SECRET,
+  secret: "fnAEBAIUu1ACBc5HANl4ru42_RlxilA1mp9YvfSv",
 })
 
 const typeDefs = gql`
