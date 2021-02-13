@@ -1,7 +1,6 @@
 import React from "react"
 import { useMutation } from "@apollo/client"
 import gql from "graphql-tag"
-import { Redirect } from "@reach/router"
 import { navigate } from "gatsby"
 import Lolly from "../components/lolly"
 import "./style.css"
